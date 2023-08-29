@@ -7,8 +7,8 @@
 <ul>
     {% for todo_list in object_list %}
         <li>
-            <div role="button" onclick="location.href='{% url "list" todolist.id %}'">
-                {{todolist.title}}
+            <div role="button" onclick="location.href='{% url "list" todo_list.id %}'">
+                {{todo_list.title}}
             </div>
         </li>
         {% empty %}
