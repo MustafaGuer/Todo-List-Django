@@ -1,0 +1,21 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding:0;
+}
+
+li span {
+    background-color: #ffb300;
+    padding: 2px 4px;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 225ms ease-in-out;
+}
+
+li span:hover {
+    background-color: #fbff00;
+}
